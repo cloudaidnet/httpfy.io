@@ -1,0 +1,32 @@
+{
+  "name": "httpfy",
+  "displayName": "HTTPfy network & DNS tools",
+  "version": "1.0.0",
+  "description": "Free DNS, SPF/DKIM/DMARC/BIMI/MTA-STS, TLS, WHOIS, IP/ASN, blocklist, ping, traceroute and port checks over a remote MCP server. No API key.",
+  "author": {
+    "name": "Cloudaid",
+    "url": "https://httpfy.io"
+  },
+  "homepage": "https://httpfy.io/agents",
+  "repository": "https://github.com/cloudaidnet/httpfy.io",
+  "license": "MIT",
+  "icon": "./assets/logo-512.png",
+  "keywords": [
+    "dns",
+    "email",
+    "spf",
+    "dkim",
+    "dmarc",
+    "tls",
+    "whois",
+    "ip",
+    "asn",
+    "ping",
+    "traceroute",
+    "network"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/",
+  "privacyPolicyUrl": "https://httpfy.io/privacy-policy",
+  "termsOfServiceUrl": "https://httpfy.io/terms-of-service"
+}

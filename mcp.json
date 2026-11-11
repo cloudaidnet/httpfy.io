@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "httpfy": { "url": "https://httpfy.io/mcp" }
+  }
+}
