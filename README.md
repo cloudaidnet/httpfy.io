@@ -63,6 +63,7 @@ The [Agent Skill](skills/httpfy-network-checks/SKILL.md) explains which tool ans
 | `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
 | `.devin-plugin/plugin.json` | Devin marketplace |
 | `llms-install.md` | Install instructions for agents (Cline and others) |
+| `distribution/` | Copies of what we submitted to each directory, and listing status |
 | `assets/` | Logos |
 
 ## Try it
