@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.httpfy/httpfy",
+  "title": "HTTPfy network & DNS tools",
+  "description": "Free DNS, SPF/DKIM/DMARC/BIMI/MTA-STS, SSL and CT, WHOIS, IP/ASN, blocklist, ping, traceroute and port checks. No API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://httpfy.io/agents",
+  "repository": {
+    "url": "https://github.com/cloudaidnet/httpfy.io",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://httpfy.io/mcp"
+    }
+  ]
+}
