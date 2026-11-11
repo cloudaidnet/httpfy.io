@@ -1,3 +1,8 @@
+# Raycast MCP Registry entry
+
+Entry for `OFFICIAL_ENTRIES` in `extensions/model-context-protocol-registry/src/registries/builtin/entries.ts` (raycast/extensions).
+
+```ts
   {
     name: "httpfy",
     title: "HTTPfy",
@@ -11,3 +16,4 @@
     },
     remoteUrl: "https://httpfy.io/mcp",
   },
+```

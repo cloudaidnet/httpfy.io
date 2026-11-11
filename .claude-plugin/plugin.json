@@ -1,6 +1,5 @@
 {
   "name": "httpfy",
-  "displayName": "HTTPfy network & DNS tools",
   "version": "1.0.0",
   "description": "Free DNS, SPF/DKIM/DMARC/BIMI/MTA-STS, TLS, WHOIS, IP/ASN, blocklist, ping, traceroute and port checks over a remote MCP server. No API key.",
   "author": {
@@ -29,6 +28,5 @@
   ],
   "mcpServers": "./.mcp.json",
   "skills": "./skills/",
-  "privacyPolicyUrl": "https://httpfy.io/privacy-policy",
-  "termsOfServiceUrl": "https://httpfy.io/terms-of-service"
+  "privacyPolicyUrl": "https://httpfy.io/privacy-policy"
 }
