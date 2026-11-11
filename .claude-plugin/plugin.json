@@ -28,5 +28,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "skills": "./skills/",
-  "privacyPolicyUrl": "https://httpfy.io/privacy-policy"
+  "privacyPolicyUrl": "https://httpfy.io/privacy-policy",
+  "supportUrl": "https://httpfy.io/contact",
+  "documentationUrl": "https://httpfy.io/agents",
+  "termsOfServiceUrl": "https://httpfy.io/terms-of-service"
 }
