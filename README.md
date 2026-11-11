@@ -73,9 +73,9 @@ curl -s https://httpfy.io/mcp -H 'content-type: application/json' -H 'accept: ap
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"dmarc_check","arguments":{"domain":"paypal.com"}}}'
 ```
 
-## Privacy and terms
+## Privacy, terms and support
 
-[Privacy policy](https://httpfy.io/privacy-policy) · [Terms of service](https://httpfy.io/terms-of-service)
+[Privacy policy](https://httpfy.io/privacy-policy) · [Terms of service](https://httpfy.io/terms-of-service) · Support: [httpfy.io/contact](https://httpfy.io/contact)
 
 ## License
 
