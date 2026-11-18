@@ -1,6 +1,6 @@
 # HTTPfy MCP server
 
-Free, read-only, no-authentication remote [MCP](https://modelcontextprotocol.io) server for DNS, email authentication, TLS certificates, WHOIS, IP/ASN and network diagnostics, run from [httpfy.io](https://httpfy.io) servers.
+Free, no-authentication remote [MCP](https://modelcontextprotocol.io) server for DNS, email authentication, TLS certificates, WHOIS, IP/ASN and network diagnostics, run from [httpfy.io](https://httpfy.io) servers. All diagnostic tools are read-only.
 
 - **Endpoint:** `https://httpfy.io/mcp` (Streamable HTTP, protocol 2026-07-28 and 2025-03-26 to 2025-11-25)
 - **Docs and one-prompt setup:** https://httpfy.io/agents
@@ -50,6 +50,7 @@ This repository holds the manifests that let agent clients and directories insta
 - `domain_health_report` (domain): Grade a domain A to F across 11 checks (name servers, SOA, DNSSEC, MX, SPF, DMARC, CAA, HTTPS certificate, HTTP to HTTPS redirect, HSTS, IPv6), with a reason and fix for each failed check.
 - `mta_sts_check` (domain): Check MTA-STS (TXT record and the HTTPS policy file, mode and MX patterns) and the TLS-RPT reporting record for a domain.
 - `port_check` (host, port): Check whether one TCP port on a public host is open, closed or filtered when tested from httpfy servers on the internet.
+- `report_feedback` (task, kind, impact, tool_name, description, proposed_fix): Tell the httpfy maintainers about a missing tool, a failure, wrong data or a confusing tool, with a proposed fix. Read by a human, never published, kept up to 90 days. No secrets or personal data.
 
 The [Agent Skill](skills/httpfy-network-checks/SKILL.md) explains which tool answers which question. Download it as a zip from https://httpfy.io/agents/httpfy-network-checks.zip.
 

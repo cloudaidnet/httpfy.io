@@ -1,6 +1,6 @@
 {
   "name": "httpfy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Free DNS, SPF/DKIM/DMARC/BIMI/MTA-STS, TLS, WHOIS, IP/ASN, blocklist, ping, traceroute and port checks over a remote MCP server. No API key.",
   "mcpServers": {
     "httpfy": { "httpUrl": "https://httpfy.io/mcp" }
